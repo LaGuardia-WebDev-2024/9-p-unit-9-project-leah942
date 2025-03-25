@@ -51,6 +51,12 @@ draw = function(){
   //Example Function Call
 drawUnicorn(20, 0);
  }
+ 
+ fill(255,255,255);
+ellipse(mouseX,mouseY,40,40);
+
+ 
+ 
 };
 
 mouseClicked = function(){
@@ -174,3 +180,6 @@ translate(-1*unicornX,-1*unicornY);
 scale(3.3);
 };
 
+
+fill(255,255,255);
+ellipse(mouseX,mouseY,40,40);
